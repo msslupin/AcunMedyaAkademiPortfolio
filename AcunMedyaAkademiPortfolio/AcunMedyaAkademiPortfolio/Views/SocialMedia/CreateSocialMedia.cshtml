@@ -1,0 +1,23 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblSocialMedia
+@{
+    ViewBag.Title = "CreateSocialMedia";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h3>Yeni Sosyal Medya Oluştur</h3>
+<form method="post">
+
+
+    <label>Link</label>
+    <input type="text" class="form-control" name="SocialMediaUrl" />
+    <label>Sosyal Medya İsmi</label>
+    <input type="text" class="form-control" name="SocialMediaName" />
+
+
+    <label>Icon Url</label>
+    <input type="text" class="form-control" name="IconUrl" />
+
+
+    <br /><br />
+    <button class="btn btn-info">Kaydet</button>
+</form>
